@@ -1,0 +1,185 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 10%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body
+{
+    background-color: hsl(235, 18%, 26%); 
+}
+
+#background
+{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 720px;
+    height: 500px;
+    position: relative;
+    border-radius: 6px;
+    margin-top: 10%;
+}
+
+#successCanvas
+{
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    height: 450px;
+    background-color: white;
+    border-radius: 12px;
+    position: relative;
+    margin-top: 7%;
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url("assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: regularFont;
+    src: url('assets/fonts/Roboto-Regular.ttf');
+}
+
+h1
+{
+    color: hsl(234, 29%, 20%);
+    font-family: robotoBold;
+    position: absolute;
+    margin-right: 45%;
+    font-size: 3em;
+    margin-top: 10%;
+}
+
+p
+{
+    position: absolute;
+    color: hsl(235, 18%, 26%);
+    font-family: regularFont;
+    margin-right: 41%;
+    margin-top: 20%;
+    font-size: 0.9em
+}
+
+ul{
+    position: absolute;
+    list-style: url('assets/images/icon-success.svg');
+    margin-top: 27%;
+    margin-right: 45%;
+}
+
+li
+{
+    margin-top: 2%;
+    font-family: regularFont;
+    color: hsl(235, 18%, 26%);
+    font-size: 0.9em;
+}
+
+input
+{
+    width: 300px;
+    height: 40px;
+    margin-left: 2%;
+    border-radius: 6px;
+    text-align: center;
+}
+
+label
+{
+    position: absolute;
+    margin-top: -10%;
+    font-family: robotoBold;
+    color: hsl(235, 18%, 26%);
+    font-size: 0.8em;
+}
+
+form
+{
+    position: absolute;
+    margin-top: 45%;
+    margin-right: 44%;
+}
+
+#submitButton
+{
+    width: 310px;
+    height: 45px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 2%;
+    font-family: robotoBold;
+    letter-spacing: 0.5px;
+}
+
+img
+{
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 3%;
+}
+
+#errorMessage
+{
+    display: none;
+    color: red;
+    position: absolute;
+    font-family: regularFont;
+    margin-top: -10%;
+    margin-left: 60%;
+    white-space: nowrap;
+    font-size: 0.8em;
+}
+
+#successIcon
+{
+    position: absolute;
+    margin-right: 115%;
+    margin-top: 10%;
+}
+
+#successMessage
+{
+    margin-left: 30%;
+    margin-top: 30%;
+}
+
+#desc
+{
+    margin-top: 60%;
+    margin-left: 40%;
+    white-space: nowrap;
+}
+
+#desc span
+{
+    font-family: robotoBold;
+}
+
+#dissmissButton
+{
+    width: 310px;
+    height: 45px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 2%;
+    font-family: robotoBold;
+    letter-spacing: 0.5px;
+}
+
+#dissmissButton:hover
+{
+    background-color: hsl(4, 100%, 67%);
+}
+
